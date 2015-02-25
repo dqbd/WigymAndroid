@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wigym</string>
+
+    <string name="fragment_mews">Novinky</string>
+    <string name="fragment_suplovani">Suplování</string>
+    <string name="fragment_students">Studenti</string>
+    <string name="fragment_teachers">Učitelé</string>
+
+    <string name="news_url" translatable="false">http://www.wigym.cz/nv/?feed=rss2</string>
+    <string name="suplovani_url" translatable="false">http://www.wigym.cz/suplovani/</string>
+    <string name="teachers_url" translatable="false">http://www.wigym.cz/nv/?page_id=11179</string>
+
+    <string name="suplovani_times">Hodiny</string>
+    <string name="suplovani_lesson">Předmět</string>
+    <string name="suplovani_group">Skupina</string>
+    <string name="suplovani_room">Místnost</string>
+    <string name="suplovani_label_teacher">Učitelé</string>
+    <string name="suplovani_label_room">Místnosti</string>
+    <string name="suplovani_label_class">Třídy</string>
+
+    <plurals name="suplovani_changes">
+        <item quantity="one">%d změna</item>
+        <item quantity="few">%d změny</item>
+        <item quantity="many">%d změn</item>
+        <item quantity="other">%d změn</item>
+    </plurals>
+
+    <string name="suplovani_list_many">dd. MM. yyyy</string>
+
+    <string-array name="suplovani_list_relative">
+        <item>před %d dny</item>
+        <item>před %d dny</item>
+        <item>před %d dny</item>
+        <item>předevčírem</item>
+        <item>včera</item>
+        <item>dnes</item>
+        <item>zítra</item>
+        <item>pozítří</item>
+        <item>za %d dny</item>
+        <item>za %d dny</item>
+        <item>za %d dnů</item>
+    </string-array>
+
+    <string name="student_page_name_entire">Celá třída</string>
+    <string name="student_page_name_firstgroup">První skupina</string>
+    <string name="student_page_name_secondgroup">Druhá skupina</string>
+    <string name="student_page_name_german">Němčináři</string>
+    <string name="student_page_name_spanish">Španělštináři</string>
+    <string name="student_page_name_boys">Kluci</string>
+    <string name="student_page_name_girls">Holky</string>
+
+    <string-array name="teacher_subject_shortcuts">
+        <item>Čj,Č</item>
+        <item>Aj</item>
+        <item>Nj</item>
+        <item>Fj</item>
+        <item>Rj</item>
+        <item>D</item>
+        <item>Ov</item>
+        <item>Zsv</item>
+        <item>La</item>
+        <item>Z</item>
+        <item>M</item>
+        <item>Dg</item>
+        <item>F</item>
+        <item>Ch</item>
+        <item>Bi</item>
+        <item>IVT</item>
+        <item>Prog</item>
+        <item>Vv</item>
+        <item>Hv</item>
+        <item>Tv</item>
+        <item>Šj</item>
+    </string-array>
+
+    <string-array name="teacher_subjects_names">
+        <item>Český jazyk</item>
+        <item>Anglický jazyk</item>
+        <item>Německý jazyk</item>
+        <item>Francouzský jazyk</item>
+        <item>Ruský jazyk</item>
+        <item>Dějepis</item>
+        <item>Občanská výchova</item>
+        <item>Základy společenských věd</item>
+        <item>Latina</item>
+        <item>Zeměpis</item>
+        <item>Matematika</item>
+        <item>Deskriptivní geometrie</item>
+        <item>Fyzika</item>
+        <item>Chemie</item>
+        <item>Biologie</item>
+        <item>Informatika a výpočetní technika</item>
+        <item>Programování</item>
+        <item>Výtvarná výchova</item>
+        <item>Hudební výchova</item>
+        <item>Tělesná výchova</item>
+        <item>Španělský jazyk</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Otevřít navigaci</string>
+    <string name="navigation_drawer_close">Zavřít navigaci</string>
+
+    <string name="action_settings">Nastavení</string>
+    <string name="title_activity_article">Článek</string>
+
+    <string name="date_today">dnes</string>
+</resources>

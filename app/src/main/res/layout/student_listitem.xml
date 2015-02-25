@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:layout_gravity="center_vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/student_status"
+        android:visibility="invisible"
+        android:src="@drawable/ic_assignment_turned_in_white_24dp"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+
+        android:id="@+id/student_position"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#55000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="16sp"
+        android:text="Ahoj světe"
+        android:id="@+id/student_name" />
+
+
+</LinearLayout>

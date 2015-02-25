@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_height="72dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/suplovani_change_times"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1.hod">
+
+        </TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/suplovani_change_lesson"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ZSV">
+
+        </TextView>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/suplovani_change_room"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="(3.A)">
+        </TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/suplovani_change_group"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="sk1">
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Suplování Průša Lukáš (Nov)"
+        android:id="@+id/suplovani_change_detail" />
+
+
+</LinearLayout>
